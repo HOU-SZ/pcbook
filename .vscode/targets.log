@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jun 25 23:45:29 2022
+# Make data base, printed on Sun Jun 26 00:26:37 2022
 
 # Variables
 
@@ -25,9 +25,9 @@ PYSPARK_PYTHON = python
 # environment
 LOCALAPPDATA = C:\Users\Shizheng\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-f1ba5b88-5976-4bb0-9b96-73718e6f8a99-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-129de656-caca-41d4-9db1-01df241f7cd5-sock
 # environment
-VSCODE_CWD = C:\Users\Shizheng\Desktop\Golang\pcbook
+VSCODE_CWD = C:\Users\Shizheng\Desktop\Golang\pcbook-go
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
@@ -43,7 +43,7 @@ GOPATH = C:\Users\Shizheng\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_90476_BCACOILPFCAIRCJM
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_82684_XTLFGPYFULPCAEGX
 # environment
 ONEDRIVECOMMERCIAL = C:\Users\Shizheng\OneDrive - National University of Singapore
 # environment
@@ -75,7 +75,7 @@ MAKEFLAGS = pqrR
 # environment
 ONEDRIVE = C:\Users\Shizheng\OneDrive - National University of Singapore
 # makefile
-CURDIR := c:/Users/Shizheng/Desktop/Golang/pcbook
+CURDIR := c:/Users/Shizheng/Desktop/Golang/pcbook-go
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -99,7 +99,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 90476
+VSCODE_PID = 82684
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -137,8 +137,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Bandizip\;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Library\resources\bin;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_311\bin;C:\Program Files\Java\jdk1.8.0_311\jre\bin;C:\Program Files\Java\jre1.8.0_311\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\sbt\bin;C:\Program Files\swipl\bin;C:\Hadoop\hadoop-3.2.2\bin;C:\Hadoop\hadoop-3.2.2\sbin;C:\Program Files\MongoDB\Tools\100\bin;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\Go\bin;C:\Program Files\LLVM\bin;C:\Users\Shizheng\AppData\Local\Microsoft\WindowsApps;;C:\Users\Shizheng\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2021.3.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 
- 2021.3.1\bin;;C:\Program Files\JetBrains\DataGrip 2021.3.3\bin;;C:\Users\Shizheng\Downloads\null\Coursier\data\bin;C:\Users\Shizheng\go\bin
+PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Bandizip\;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Library\resources\bin;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_311\bin;C:\Program Files\Java\jdk1.8.0_311\jre\bin;C:\Program Files\Java\jre1.8.0_311\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\sbt\bin;C:\Program Files\swipl\bin;C:\Hadoop\hadoop-3.2.2\bin;C:\Hadoop\hadoop-3.2.2\sbin;C:\Program Files\MongoDB\Tools\100\bin;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\Go\bin;C:\Program Files\LLVM\bin;C:\Users\Shizheng\AppData\Local\Microsoft\WindowsApps;;C:\Users\Shizheng\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2021.3.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\bin;;C:\Program Files\JetBrains\DataGrip 2021.3.3\bin;;C:\Users\Shizheng\Downloads\null\Coursier\data\bin;C:\Users\Shizheng\go\bin
 # environment
 COMPUTERNAME = LAPTOP-QUVHSK4C
 # default
@@ -183,8 +182,6 @@ USERDOMAIN = LAPTOP-QUVHSK4C
 GNUMAKEFLAGS := 
 # environment
 OS = Windows_NT
-# environment
-__COMPAT_LAYER = DetectorsAppHealth
 # makefile
 .DEFAULT_GOAL := gen
 # default
@@ -216,7 +213,8 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\Shizheng\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\02e3cbfca611559103da88111c9f3d61-1.68.1-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\02e3cbfca611559103da88111 
+c9f3d61-1.68.1-main-sock
 # environment
 GOPROXY = https://proxy.golang.org,direct
 # default
@@ -229,6 +227,10 @@ SUFFIXES :=
 ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
@@ -238,7 +240,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
 # environment
 JRE_HOME = C:\Program Files\Java\jre1.8.0_311
 # variable set hash-table stats:
-# Load=112/1024=11%, Rehash=0, Collisions=10/139=7%
+# Load=113/1024=11%, Rehash=0, Collisions=10/140=7%
 
 # Pattern-specific Variable Values
 
@@ -246,14 +248,13 @@ JRE_HOME = C:\Program Files\Java\jre1.8.0_311
 
 # Directories
 
-# . (key c:/Users/Shizheng/Desktop/Golang/pcbook, mtime 1656165659): 10 files, no impossibilities.
+# . (key c:/Users/Shizheng/Desktop/Golang/pcbook-go, mtime 1656165659): 10 files, no impossibilities.
 
 # 10 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
 # No implicit rules.
- 
 
 # Files
 
@@ -312,6 +313,6 @@ gen:
 # strcache performance: lookups = 23 / hit rate = 30%
 # hash-table stats:
 # Load=16/8192=0%, Rehash=0, Collisions=0/23=0%
-# Finished Make data base on Sat Jun 25 23:45:29 2022
+# Finished Make data base on Sun Jun 26 00:26:37 2022
 
  

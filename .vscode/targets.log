@@ -8,10 +8,12 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jun 26 00:26:37 2022
+# Make data base, printed on Thu Jul 07 22:29:19 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -25,7 +27,7 @@ PYSPARK_PYTHON = python
 # environment
 LOCALAPPDATA = C:\Users\Shizheng\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-129de656-caca-41d4-9db1-01df241f7cd5-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-50ff2e2d-b569-4831-941c-3e0bf2e69422-sock
 # environment
 VSCODE_CWD = C:\Users\Shizheng\Desktop\Golang\pcbook-go
 # environment
@@ -43,9 +45,11 @@ GOPATH = C:\Users\Shizheng\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_82684_XTLFGPYFULPCAEGX
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_40476_NORNQQYZWYVFWZMQ
 # environment
 ONEDRIVECOMMERCIAL = C:\Users\Shizheng\OneDrive - National University of Singapore
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -99,7 +103,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 82684
+VSCODE_PID = 40476
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -121,7 +125,7 @@ PROGRAMDATA = C:\ProgramData
 # default
 SHELL := sh.exe
 # environment
-CLASSPATH = .;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;
+CLASSPATH = .;C:\Program Files\Java\jdk1.8.0_311\lib\dt.jar;C:\Program Files\Java\jdk1.8.0_311\lib\tools.jar;
 # environment
 HOMEPATH = \Users\Shizheng
 # default
@@ -137,7 +141,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Bandizip\;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Library\resources\bin;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_311\bin;C:\Program Files\Java\jdk1.8.0_311\jre\bin;C:\Program Files\Java\jre1.8.0_311\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\sbt\bin;C:\Program Files\swipl\bin;C:\Hadoop\hadoop-3.2.2\bin;C:\Hadoop\hadoop-3.2.2\sbin;C:\Program Files\MongoDB\Tools\100\bin;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\Go\bin;C:\Program Files\LLVM\bin;C:\Users\Shizheng\AppData\Local\Microsoft\WindowsApps;;C:\Users\Shizheng\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2021.3.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\bin;;C:\Program Files\JetBrains\DataGrip 2021.3.3\bin;;C:\Users\Shizheng\Downloads\null\Coursier\data\bin;C:\Users\Shizheng\go\bin
+PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Bandizip\;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Library\resources\bin;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_311\bin;C:\Program Files\Java\jdk1.8.0_311\jre\bin;C:\Program Files\Java\jre1.8.0_311\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\sbt\bin;C:\Program Files\swipl\bin;C:\Hadoop\hadoop-3.2.2\bin;C:\Hadoop\hadoop-3.2.2\sbin;C:\Program Files\MongoDB\Tools\100\bin;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\Go\bin;C:\Program Files\LLVM\bin;C:\Users\Shizheng\AppData\Local\Microsoft\WindowsApps;;C:\Users\Shizheng\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2021.3.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\bin;;C:\Program Files\JetBrains\DataGrip 2021.3.3\bin;;C:\Users\Shizheng\Downloads\null\Coursier\data\bin;C:\Users\Shizheng\go\bin;C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin;
 # environment
 COMPUTERNAME = LAPTOP-QUVHSK4C
 # default
@@ -149,7 +153,7 @@ PYCHARM = C:\Program Files\JetBrains\PyCharm 2021.3.1\bin;
 # environment
 PROMPT = $P$G
 # environment
-CHOCOLATEYLASTPATHUPDATE = 132865649912591656
+CHOCOLATEYLASTPATHUPDATE = 133006519599065489
 # environment
 JAVA8_HOME = C:\Program Files\Java\jdk1.8.0_311
 # environment
@@ -213,8 +217,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\Shizheng\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\02e3cbfca611559103da88111 
-c9f3d61-1.68.1-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\02e3cbfca611559103da88111c9f3d61-1.68.1-main-sock
 # environment
 GOPROXY = https://proxy.golang.org,direct
 # default
@@ -227,10 +230,6 @@ SUFFIXES :=
 ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
-# environment
-VSCODE_CLI = 1
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
@@ -240,7 +239,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
 # environment
 JRE_HOME = C:\Program Files\Java\jre1.8.0_311
 # variable set hash-table stats:
-# Load=113/1024=11%, Rehash=0, Collisions=10/140=7%
+# Load=113/1024=11%, Rehash=0, Collisions=11/140=8%
 
 # Pattern-specific Variable Values
 
@@ -248,9 +247,10 @@ JRE_HOME = C:\Program Files\Java\jre1.8.0_311
 
 # Directories
 
-# . (key c:/Users/Shizheng/Desktop/Golang/pcbook-go, mtime 1656165659): 10 files, no impossibilities.
+# . 
+ (key c:/Users/Shizheng/Desktop/Golang/pcbook-go, mtime 1656177987): 15 files, no impossibilities.
 
-# 10 files, no impossibilities in 1 directories.
+# 15 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -261,7 +261,7 @@ JRE_HOME = C:\Program Files\Java\jre1.8.0_311
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-25 22:04:19
+#  Last modified 2022-06-26 01:27:06
 #  File has been updated.
 #  Successfully updated.
 
@@ -292,6 +292,13 @@ run:
 #  recipe to execute (from 'Makefile', line 8):
 	go run main.go
 
+test:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 11):
+	go test -cover -race ./...
+
 gen:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -300,19 +307,19 @@ gen:
 	protoc --proto_path=proto proto/*.proto --go_out=pb --go_opt=paths=source_relative
 
 # files hash-table stats:
-# Load=7/1024=1%, Rehash=0, Collisions=0/17=0%
+# Load=8/1024=1%, Rehash=0, Collisions=0/18=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 16 / storage = 102 B / avg = 6 B
-# current buf: size = 8174 B / used = 102 B / count = 16 / avg = 6 B
+# strcache buffers: 1 (0) / strings = 22 / storage = 143 B / avg = 6 B
+# current buf: size = 8174 B / used = 143 B / count = 22 / avg = 6 B
 
-# strcache performance: lookups = 23 / hit rate = 30%
+# strcache performance: lookups = 30 / hit rate = 26%
 # hash-table stats:
-# Load=16/8192=0%, Rehash=0, Collisions=0/23=0%
-# Finished Make data base on Sun Jun 26 00:26:37 2022
+# Load=22/8192=0%, Rehash=0, Collisions=0/30=0%
+# Finished Make data base on Thu Jul 07 22:29:19 2022
 
  

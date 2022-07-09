@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jul 07 22:29:19 2022
+# Make data base, printed on Sat Jul 09 11:05:15 2022
 
 # Variables
 
@@ -27,7 +27,7 @@ PYSPARK_PYTHON = python
 # environment
 LOCALAPPDATA = C:\Users\Shizheng\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-50ff2e2d-b569-4831-941c-3e0bf2e69422-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-0728c49c-26d6-4513-a5c7-5771439b6c37-sock
 # environment
 VSCODE_CWD = C:\Users\Shizheng\Desktop\Golang\pcbook-go
 # environment
@@ -45,7 +45,7 @@ GOPATH = C:\Users\Shizheng\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_40476_NORNQQYZWYVFWZMQ
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17376_LGUWXLNXWMOXFWAM
 # environment
 ONEDRIVECOMMERCIAL = C:\Users\Shizheng\OneDrive - National University of Singapore
 # environment
@@ -103,7 +103,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 40476
+VSCODE_PID = 17376
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -231,7 +231,8 @@ ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
 # default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+.FEATURES := target-specifi 
+c order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
 PROCESSOR_REVISION = 5000
 # environment
@@ -247,10 +248,9 @@ JRE_HOME = C:\Program Files\Java\jre1.8.0_311
 
 # Directories
 
-# . 
- (key c:/Users/Shizheng/Desktop/Golang/pcbook-go, mtime 1656177987): 15 files, no impossibilities.
+# . (key c:/Users/Shizheng/Desktop/Golang/pcbook-go, mtime 1657214201): 17 files, no impossibilities.
 
-# 15 files, no impossibilities in 1 directories.
+# 17 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -258,10 +258,17 @@ JRE_HOME = C:\Program Files\Java\jre1.8.0_311
 
 # Files
 
+client:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 14):
+	go run cmd/client/main.go -address 0.0.0.0:8081
+
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-26 01:27:06
+#  Last modified 2022-07-08 01:20:48
 #  File has been updated.
 #  Successfully updated.
 
@@ -271,6 +278,13 @@ clean:
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 5):
 	del pb\*.go
+
+server:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 11):
+	go run cmd/server/main.go -port 8081
 
 # Not a target:
 .DEFAULT:
@@ -296,7 +310,7 @@ test:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 11):
+#  recipe to execute (from 'Makefile', line 17):
 	go test -cover -race ./...
 
 gen:
@@ -304,22 +318,22 @@ gen:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 2):
-	protoc --proto_path=proto proto/*.proto --go_out=pb --go_opt=paths=source_relative
+	protoc --proto_path=proto proto/*.proto --go_out=pb --go_opt=paths=source_relative --go-grpc_out=pb --go-grpc_opt=paths=source_relative
 
 # files hash-table stats:
-# Load=8/1024=1%, Rehash=0, Collisions=0/18=0%
+# Load=10/1024=1%, Rehash=0, Collisions=0/20=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 22 / storage = 143 B / avg = 6 B
-# current buf: size = 8174 B / used = 143 B / count = 22 / avg = 6 B
+# strcache buffers: 1 (0) / strings = 26 / storage = 169 B / avg = 6 B
+# current buf: size = 8174 B / used = 169 B / count = 26 / avg = 6 B
 
-# strcache performance: lookups = 30 / hit rate = 26%
+# strcache performance: lookups = 36 / hit rate = 27%
 # hash-table stats:
-# Load=22/8192=0%, Rehash=0, Collisions=0/30=0%
-# Finished Make data base on Thu Jul 07 22:29:19 2022
+# Load=26/8192=0%, Rehash=0, Collisions=0/36=0%
+# Finished Make data base on Sat Jul 09 11:05:15 2022
 
  

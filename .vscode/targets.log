@@ -8,12 +8,10 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 09 11:05:15 2022
+# Make data base, printed on Sun Jul 10 00:07:19 2022
 
 # Variables
 
-# environment
-FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -26,8 +24,6 @@ USERPROFILE = C:\Users\Shizheng
 PYSPARK_PYTHON = python
 # environment
 LOCALAPPDATA = C:\Users\Shizheng\AppData\Local
-# environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-0728c49c-26d6-4513-a5c7-5771439b6c37-sock
 # environment
 VSCODE_CWD = C:\Users\Shizheng\Desktop\Golang\pcbook-go
 # environment
@@ -45,11 +41,9 @@ GOPATH = C:\Users\Shizheng\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17376_LGUWXLNXWMOXFWAM
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_28972_HBORJVCCPVWIPGVE
 # environment
 ONEDRIVECOMMERCIAL = C:\Users\Shizheng\OneDrive - National University of Singapore
-# environment
-FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -58,12 +52,10 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 %D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
 # automatic
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
-# environment
-VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\Shizheng\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+VSCODE_CODE_CACHE_PATH = C:\Users\Shizheng\AppData\Roaming\Code\CachedData\92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
 # environment
 LANG = C
 # default
@@ -80,8 +72,6 @@ MAKEFLAGS = pqrR
 ONEDRIVE = C:\Users\Shizheng\OneDrive - National University of Singapore
 # makefile
 CURDIR := c:/Users/Shizheng/Desktop/Golang/pcbook-go
-# environment
-VSCODE_PIPE_LOGGING = true
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
@@ -101,9 +91,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
-VSCODE_PID = 17376
+VSCODE_PID = 28972
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -125,7 +113,7 @@ PROGRAMDATA = C:\ProgramData
 # default
 SHELL := sh.exe
 # environment
-CLASSPATH = .;C:\Program Files\Java\jdk1.8.0_311\lib\dt.jar;C:\Program Files\Java\jdk1.8.0_311\lib\tools.jar;
+CLASSPATH = .;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;
 # environment
 HOMEPATH = \Users\Shizheng
 # default
@@ -163,8 +151,6 @@ JAVA17_HOME = C:\Program Files\Java\jdk-17.0.2
 # environment
 LOGONSERVER = \\LAPTOP-QUVHSK4C
 # environment
-VSCODE_LOG_NATIVE = false
-# environment
 USERNAME = Shizheng
 # environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
@@ -186,6 +172,8 @@ USERDOMAIN = LAPTOP-QUVHSK4C
 GNUMAKEFLAGS := 
 # environment
 OS = Windows_NT
+# environment
+__COMPAT_LAYER = DetectorsAppHealth
 # makefile
 .DEFAULT_GOAL := gen
 # default
@@ -207,7 +195,8 @@ PROCESSOR_ARCHITECTURE = x86
 # environment
 GOMODCACHE = C:\Users\Shizheng\go\pkg\mod
 # environment
-DATAGRIP = C:\Program Files\JetBrains\DataGrip 2021.3.3\bin;
+DATAGRIP = C:\Program  
+Files\JetBrains\DataGrip 2021.3.3\bin;
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -217,7 +206,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\Shizheng\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\02e3cbfca611559103da88111c9f3d61-1.68.1-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\02e3cbfca611559103da88111c9f3d61-1.69.0-main-sock
 # environment
 GOPROXY = https://proxy.golang.org,direct
 # default
@@ -231,8 +220,7 @@ ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
 # default
-.FEATURES := target-specifi 
-c order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
 PROCESSOR_REVISION = 5000
 # environment
@@ -240,7 +228,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
 # environment
 JRE_HOME = C:\Program Files\Java\jre1.8.0_311
 # variable set hash-table stats:
-# Load=113/1024=11%, Rehash=0, Collisions=11/140=8%
+# Load=107/1024=10%, Rehash=0, Collisions=9/134=7%
 
 # Pattern-specific Variable Values
 
@@ -248,9 +236,9 @@ JRE_HOME = C:\Program Files\Java\jre1.8.0_311
 
 # Directories
 
-# . (key c:/Users/Shizheng/Desktop/Golang/pcbook-go, mtime 1657214201): 17 files, no impossibilities.
+# . (key c:/Users/Shizheng/Desktop/Golang/pcbook-go, mtime 1657376001): 18 files, no impossibilities.
 
-# 17 files, no impossibilities in 1 directories.
+# 18 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -328,12 +316,12 @@ gen:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 26 / storage = 169 B / avg = 6 B
-# current buf: size = 8174 B / used = 169 B / count = 26 / avg = 6 B
+# strcache buffers: 1 (0) / strings = 27 / storage = 173 B / avg = 6 B
+# current buf: size = 8174 B / used = 173 B / count = 27 / avg = 6 B
 
-# strcache performance: lookups = 36 / hit rate = 27%
+# strcache performance: lookups = 37 / hit rate = 27%
 # hash-table stats:
-# Load=26/8192=0%, Rehash=0, Collisions=0/36=0%
-# Finished Make data base on Sat Jul 09 11:05:15 2022
+# Load=27/8192=0%, Rehash=0, Collisions=0/37=0%
+# Finished Make data base on Sun Jul 10 00:07:19 2022
 
  
